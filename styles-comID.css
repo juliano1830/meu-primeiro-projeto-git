@@ -1,0 +1,19 @@
+
+#título {
+    color: blue;
+    font-size: 55px;
+}
+
+#parágrafo {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botão {
+    background: green;
+}
+
+#outro-botão {
+    background: chocolate;
+}

@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    font-size: 64px;
+    font-weight: bold; /* é o negrito, pode usar tbm o bolder (maior negrito) usar também o lighter (o mais fino)*/
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 10px #FF0000; /* 4 fatores: horizontal, vertical, quão esfumaçada, qual cor*/
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10;
+    word-spacing: 40px;
+    text-align: justify;
+    text-transform: uppercase; /* lowercase é tudo minúsculo, Captalize seria só a primeira letra de cada palavra maiúscula*/
+    text-decoration: underline;
+}
+
+/* tem como usar tbm o stilo fonte family também direto no css, seria só colar @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); direto no topo aqui do css e todas as linhas referentes ao font family lá do head no html.*/

@@ -1,0 +1,14 @@
+h1 {
+    color:rgb(0, 17, 255);
+    background: black;
+}
+
+p {
+    color:rgb(255, 174, 0);
+    font-size:20px;
+}
+
+button {
+    background: rgb(100, 255, 80);
+    border: rgb(75, 42, 165);
+}

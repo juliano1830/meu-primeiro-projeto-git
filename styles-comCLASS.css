@@ -1,0 +1,10 @@
+/*para mostrar p o html que tem um class é usado o ponto*/
+
+.texto {
+    color: red;
+    font-weight: bold;
+}
+
+.botão {
+    background: blue;
+}

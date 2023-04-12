@@ -1,0 +1,41 @@
+
+.vo {
+    font-size: 16px;
+}
+
+.pai {
+    width: 50vw;
+    height: 50vh;
+    background: #0000FF;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: #FF0000;
+    color: #FFFFFF;
+    font-size: 0.5rem;
+}
+
+
+
+/*
+
+UNIDADES DE MEDIDAS
+
+    -> ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    -> RELATIVAS
+        % calcula o tamanho relativo ao elemento pai
+        vw (view width) 1vw é 1% da largura da janela do navegador
+        vh (view height) 1vh é 1% da altura da janela do navegador
+        em é uma unidade relativa ao elemento pai (em = ephemeral unit - unidade transitória) se o vo é 2 o pai seria 4 e o filho seria 8, ...efeito cascata)
+        rem é uma unidade relativa ao elemento mais raiz (rem = root ephemeral unit - é o elemento mais na raiz da árvore, neste caso seria o vo (vo-pai-filho)
+
+*/
+
